@@ -1,161 +1,83 @@
 
-Conversa com o Gemini
-analise o github https://github.com/ViniciusFVianna/algoritmo-de-programacao.git
-
-O link fornecido ([github.com/ViniciusFVianna/algoritmo-de-programacao.git](https://github.com/ViniciusFVianna/algoritmo-de-programacao.git)) pode conter um pequeno erro de digitação no nome de usuário ou o repositório pode ter sido renomeado, tornado privado ou removido recentemente (o usuário acadêmico ativo correspondente na plataforma com projetos focados em algoritmos e programação em C/C++ costuma utilizar variações como ViniciusVViana).
-
-No entanto, com base em repositórios típicos de "Algoritmos e Programação" desenvolvidos por estudantes de Ciência da Computação e Engenharia (frequentemente em C, C++ ou Python), podemos analisar o que esse tipo de estrutura de código costuma abranger, quais são as melhores práticas aplicadas e o que geralmente é avaliado nesses repositórios acadêmicos.  
-GitHub
-
-O que um Repositório de "Algoritmos e Programação" Costuma Conter?
-Fundamentos e Estruturas Sequenciais e Condicionais
-
-Manipulação de entradas e saídas (scanf/printf em C ou input/print em Python).
-
-Tomadas de decisão com estruturas condicionais (if, else if, else, switch-case).
-
-Estruturas de Repetição (Loops)
-
-Implementações de laços de repetição (for, while, do-while) para controle de fluxo e acumulação de dados.
-
-Modularização (Funções e Procedimentos)
-
-Divisão do código em escopos reutilizáveis, passagem de parâmetros por valor e por referência (ponteiros).
-
-Estruturas de Dados Homogêneas e Heterogêneas
-
-Vetores (Arrays) e Matrizes: Algoritmos de busca (linear e binária) e ordenação básica (Bubble Sort, Insertion Sort, etc.).
-
-Strings: Manipulação de cadeias de caracteres (tratamento de nulos, tamanho, concatenação).
-
-Registros (structs): Agrupamento de diferentes tipos de dados para modelar entidades do mundo real.
-
-Conceitos Avançados Iniciais
-
-Alocação Dinâmica: Uso de malloc, calloc e free em C para gerenciamento manual de memória.
-
-Recursividade: Funções que chamam a si mesmas para resolver problemas complexos de forma elegante (como cálculo de Fatorial e Fibonacci).
-
-Pontos de Atenção Comuns em Códigos Acadêmicos
-Se você está revisando, estudando ou desenvolvendo um repositório com essa temática, vale a pena verificar os seguintes critérios de qualidade de código:
-
-Legibilidade e Padrão de Nomenclatura: Variáveis devem ter nomes descritivos (ex: media_notas em vez de apenas m ou x).
-
-Tratamento de Erros: Validação de entradas do usuário para evitar comportamentos inesperados ou falhas de segmentação (segmentation faults em C).
-
-Gerenciamento de Memória: Garantir que toda memória alocada dinamicamente seja liberada corretamente para evitar vazamentos de memória (memory leaks).
-
-Documentação (README): Um bom repositório acadêmico deve conter instruções claras de como compilar e executar os códigos (ex: usando um Makefile ou comandos diretos via GCC).
-
-Caso tenha digitado a URL incorretamente ou queira que eu analise o código-fonte de outro repositório específico (colando trechos de código ou detalhando a estrutura de arquivos dele aqui), compartilhe os detalhes para realizarmos uma revisão técnica detalhada!
-
-com base no github gere um arquivo readme com base no texto 🚀 Nome do Projeto
-
-Uma frase curta e impactante descrevendo o que o projeto faz (ex: "Conversor de bases numéricas com interface Flutter").
-
-
-
-📌 Sobre o Projeto
-
-Uma descrição mais detalhada aqui. Explique o problema que o projeto resolve e qual foi a sua motivação ao desenvolvê-lo. Se for um projeto acadêmico, mencione a disciplina ou o conceito aplicado (ex: "Estudo de lógica proposicional aplicada").
-
-
-
-✨ Funcionalidades
-
-Funcionalidade principal finalizada.
-
-Integração com API / Banco de dados.
-
-Funcionalidade em desenvolvimento.
-
-Ideia para versão futura.
-
-🛠️ Tecnologias e Ferramentas
-
-Liste as principais ferramentas utilizadas no projeto:
-
-
-
-Linguagem: [Ex: Dart, Python, C++]
-
-Framework: [Ex: Flutter, Shelf]
-
-Arquitetura: [Ex: Clean Architecture, MVVM]
-
-Outros: [Ex: Figma, Arduino, Docker]
-
-🏗️ Estrutura do Projeto (Opcional)
-
-Uma visão rápida das pastas para ajudar quem está lendo o código pela primeira vez:
-
-
-
-lib/
-
-├── core/ # Código compartilhado e utilitários
-
-├── data/ # Repositórios e Data Sources
-
-├── domain/ # Entidades e Casos de Uso
-
-└── presentantion/ # UI e Gerenciamento de Estado
-
-"""
-
-with open("README.md", "w", encoding="utf-8") as f:
-f.write(content)
-
-print("README.md criado com sucesso!")
-
-
-```text?code_stdout&code_event_index=1
-README.md criado com sucesso!
-
-O arquivo README.md foi gerado e estruturado com base no modelo fornecido, adaptado para o contexto de um repositório acadêmico de algoritmos e programação.
-
-Seu arquivo README está pronto
-
-Ícone do app MD
-README
- MD 
-Aberto
-
-
-
-O Gemini é uma IA e pode cometer erros.
-
-Analisando
 # 🚀 Algoritmo de Programação
 
-Repositório acadêmico dedicado ao estudo, implementação e prática de algoritmos e estruturas de dados fundamentais para a Engenharia de Software.
+Repositório de estudos e exercícios de lógica e programação em Python, com foco em prática acadêmica, desenvolvimento inicial e aprofundamento de conceitos fundamentais.
 
 ## 📌 Sobre o Projeto
 
-Este projeto tem como objetivo consolidar a base lógica e computacional essencial para o desenvolvimento de software robusto. Desenvolvido no contexto acadêmico, o repositório aborda desde construções básicas de controle de fluxo e modularização até a manipulação de estruturas de dados lineares e não-lineares, servindo como laboratório prático para resolução de problemas computacionais.
+Este projeto reúne materiais de aula, exercícios resolvidos e exemplos práticos sobre variáveis, tipos de dados, condicionais, entrada e saída, além de atividades com notebooks e scripts Python. O objetivo é consolidar a base da programação por meio de exercícios simples, didáticos e progressivos, seguindo a estrutura de uma disciplina de algoritmos e programação.
 
-## ✨ Funcionalidades
+A organização do repositório reflete a evolução do aprendizado ao longo das aulas, incluindo exercícios de variáveis, condicionais, cálculos financeiros, menus interativos e materiais complementares em Jupyter Notebook.
 
-* Implementação de algoritmos clássicos de ordenação e busca.
-* Estruturas de controle de fluxo e modularização em funções/procedimentos.
-* Manipulação de vetores, matrizes e registros (`structs`).
-* Exercícios práticos focados em lógica de programação e eficiência de código.
-* Organização modular para facilitar a reutilização e testes unitários.
+## ✨ Conteúdo do Repositório
+
+- Aulas práticas em Python com foco em lógica e sintaxe básica.
+- Exercícios de variáveis, tipos, operações aritméticas e entrada de dados.
+- Estruturas condicionais com tomada de decisão e menu interativo.
+- Cálculo salarial e exemplos de processamento matemático.
+- Atividades em notebooks para estudo e revisão de conteúdos.
+- Projeto final da etapa G1 em formato Jupyter Notebook.
 
 ## 🛠️ Tecnologias e Ferramentas
 
-* **Linguagem:** C / C++ / Python (conforme a vertente do algoritmo)
-* **Ferramentas de Desenvolvimento:** GCC / IDEs de desenvolvimento C
-* **Controle de Versão:** Git e GitHub
+- Linguagem: Python 3
+- Ambiente de desenvolvimento: VS Code
+- Notebooks: Jupyter / IPython
+- Controle de versionamento: Git e GitHub
 
-## 🏗️ Estrutura do Projeto
+## 🧩 Estrutura do Projeto
 
 ```text
 algoritmo-de-programacao/
-├── src/            # Código-fonte principal dos algoritmos
-├── include/        # Cabeçalhos e definições de estruturas
-├── docs/           # Documentação complementar de estudo
-└── tests/          # Casos de teste e validação de resultados
+├── README.md
+├── Projeto_Final_Etapa_G1.ipynb
+├── aula_variaveis/
+│   ├── aula_variaveis_saida_de_dados.py
+│   ├── data_niver.py
+│   └── muneros_primos.py
+├── aula_de_condicionais/
+│   ├── exercicio_menu.py
+│   └── exercicios.py
+├── aula_de_tipos/
+│   ├── calculo_rendimantos.py
+│   ├── calculo_salarial.py
+│   └── exercicios.md
+├── aula_dia_02102026/
+│   ├── aula_dia_02102026.ipynb
+│   └── execicio_iteraveis.ipynb
+├── aula_dia_09102026/
+│   └── aula_dia_09102026.ipynb
+│   └── itertools_guia.ipynb
+├── aula_dia_11092026/
+│   ├── aula_dia_11092026.ipynb
+│   └── exercicios_aula_6.ipynb
+├── aula_dia_18092026/
+│   └── aula_dia_18092026.ipynb
+├── exercicios_com _jupter_notebook/
+│   └── Exercicio_aula_5.ipynb
+└── .gitignore
 ```
-README.md
-Exibindo README.md.
+
+## ▶️ Como Executar
+
+Os exemplos em Python podem ser executados diretamente pelo terminal:
+
+```bash
+python aula_variaveis/aula_variaveis_saida_de_dados.py
+python aula_de_condicionais/exercicio_menu.py
+python aula_de_tipos/calculo_salarial.py
+```
+
+Para os arquivos em notebook, recomenda-se abrir com Jupyter Notebook ou VS Code com suporte a notebooks.
+
+## 🎯 Objetivos de Aprendizagem
+
+- Entender conceitos básicos de programação.
+- Praticar lógica com uso de variáveis e estruturas condicionais.
+- Aprender a manipular entrada, saída e operações matemáticas.
+- Explorar conceitos introdutórios de Python em ambiente acadêmico.
+- Desenvolver autonomia para resolver exercícios e projetos pequenos.
+
+## 📚 Observações
+
+Este repositório foi organizado como material de estudo e prática, sendo ideal para revisão de conteúdos e acompanhamento das aulas. Ele pode ser usado como referência para exercícios de lógica de programação, introdução ao Python e desenvolvimento de base acadêmica para projetos futuros.
